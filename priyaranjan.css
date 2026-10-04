@@ -379,12 +379,14 @@ transform: scale(1.08);
 
 .hero{
 flex-direction:column;
-padding:30px;
+text-align: center;
+padding:20px;
 }
 
 .main{
-grid-template-columns:1fr;
-padding:30px;
+display: grid;
+grid-template-columns: 1fr;
+padding:20px;
 }
 
 nav{
@@ -396,17 +398,18 @@ display:none;
 }
 
 .hero-content h1{
-font-size:45px;
+font-size:32px;
 }
 
 .hero-content h2{
-font-size:24px;
+font-size:20px;
 }
 
 .contact-box{
 border-left:none;
 padding-left:0;
 width:100%;
+margin-top:20px;
 }
 
 .section-title{
@@ -422,4 +425,9 @@ footer{
     padding:20px;
     margin-top:50px;
     font-size:14px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }

@@ -1,236 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Priyaranjan Portfolio</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priyaranjan | Portfolio</title>
+    <meta
+      name="description"
+      content="Professional portfolio website for Priyaranjan, a B.Sc IT student and aspiring data analyst."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="priyaranjan.css" />
+    <script src="priyaranjan.js" defer></script>
+  </head>
+  <body>
+    <header class="reference-header">
+      <div class="reference-topline" aria-hidden="true"></div>
+      <div class="reference-nav-wrap">
+        <div class="reference-nav">
+          <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-navigation">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+          <nav class="reference-links" id="main-navigation" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <button class="theme-toggle reference-theme" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+            <span class="theme-toggle-label">Dark mode</span>
+          </button>
+        </div>
+      </div>
+    </header>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <main>
+      <section class="reference-hero" id="home">
+        <div class="reference-hero-inner">
+          <div class="reference-photo">
+            <img src="PHOTO.jpeg" alt="Priyaranjan portrait" />
+          </div>
+          <div class="reference-intro">
+            <h1>Priyaranjan</h1>
+            <p class="reference-about-label">About Me</p>
+            <h2>B.Sc IT Student | Aspiring Data Analyst</h2>
+            <p class="reference-summary">
+              I am Priyaranjan, a passionate technology learner focused on data analytics, business intelligence, and practical AI-powered solutions.
+            </p>
+            <p class="reference-availability"><span class="dot"></span>Available for internships &amp; freelance work</p>
+          </div>
+          <aside class="reference-contact" id="contact" aria-label="Contact information">
+            <a class="reference-resume" href="Certificates/Priyaranjan_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-file-lines" aria-hidden="true"></i> View / Download Resume
+            </a>
+            <a href="https://www.linkedin.com/in/priyaranjan-it" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+            <a href="https://github.com/priyaranjan67" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+            <a href="mailto:ranjan4967@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email ID</a>
+            <a href="tel:+917361954967"><i class="fa-solid fa-phone" aria-hidden="true"></i> Phone Number</a>
+          </aside>
+        </div>
+      </section>
 
-<link rel="stylesheet" href="priyaranjan.css">
-</head>
+      <section class="reference-about-section" id="about">
+        <div class="reference-about-card">
+          <div class="reference-about-intro">
+            <p class="reference-about-kicker">A little about me</p>
+            <h2>Turning data into clarity and ideas into impact.</h2>
+            <p>Building useful solutions with data and technology.</p>
+          </div>
+          <div class="reference-about-copy">
+            <p>I enjoy exploring how data, AI, and digital tools can solve real-world problems. My interests lie in analytics, reporting, automation, and creating user-friendly experiences that turn complex information into action.</p>
+            <p>With a strong interest in business intelligence and modern tools like Excel, Power BI, SQL, and Python, I aim to create value through thoughtful analysis, well-structured systems, and continuous learning.</p>
+          </div>
+          <div class="reference-about-facts" aria-label="Portfolio highlights">
+            <span><strong>3+</strong> Technical Skills</span>
+            <span><strong>4+</strong> Practical Projects</span>
+            <span><strong>5+</strong> Certifications</span>
+            <span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Patna, Bihar</span>
+          </div>
+        </div>
+      </section>
 
-<body>
-   <div id="home" class="hero"></div>
-    <div id="about" class="hero"></div>
-    <div id="contact" class="hero"></div>
-<nav>
-<div class="menu" >☰</div>
-<div class="nav-links">
-<div class="hm">
-<a href="#home" class="nav-link">Home</a>
-</div>
-<div class="abot">
-<a href="#about" class="nav-link">About</a>
-</div>
-<div class="skll">
-<a href="#skills" class="nav-link">Skills</a>
-</div>
-<div class="prjct">
-<a href="#projects" class="nav-link">Projects</a>
-</div>
-<div class="certi">
-<a href="#certificates" class="nav-link">Certificates</a>
-</div>
-<div class="cont">
-<a href="#contact" class="nav-link">Contact</a>
-</div>
-</div>
-</nav>
+      <section class="reference-content" aria-label="Portfolio information">
+        <div class="reference-columns">
+          <section class="reference-column" id="skills">
+            <h2 class="reference-heading">Skills</h2>
+            <div class="reference-skills">
+              <div><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+              <div><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+              <div><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+              <div><i class="fa-brands fa-python"></i><span>Python</span></div>
+              <div><i class="fa-solid fa-database"></i><span>SQL</span></div>
+              <div><i class="fa-solid fa-file-excel"></i><span>Excel</span></div>
+              <div><i class="fa-solid fa-chart-column"></i><span>Power BI</span></div>
+              <div><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div>
+              <div><i class="fa-solid fa-server"></i><span>MongoDB</span></div>
+              <div><i class="fa-brands fa-linux"></i><span>Linux</span></div>
+            </div>
+          </section>
 
+          <section class="reference-column" id="education">
+            <h2 class="reference-heading">Education</h2>
+            <div class="reference-education">
+              <article>
+                <h3>Pursuing B.Sc IT</h3>
+                <p>CIMAGE College, Patna, Bihar (2025 - 2028)</p>
+              </article>
+              <article>
+                <h3>12th</h3>
+                <p>B.N.M.V College, Madhepura, Bihar (2024)</p>
+              </article>
+              <article>
+                <h3>10th</h3>
+                <p>U.M.S Kishanpur, Saharsa, Bihar (2022)</p>
+              </article>
+            </div>
+          </section>
 
-<!-- Profile Section -->
+          <section class="reference-column" id="projects">
+            <h2 class="reference-heading">Projects</h2>
+            <div class="reference-projects">
+              <article class="reference-project">
+                <h3><i class="fa-solid fa-wallet" aria-hidden="true"></i> Roommate Expense Sharing App</h3>
+                <p>A practical finance app for tracking shared expenses, balancing dues, and simplifying monthly settlements among roommates.</p>
+                <span>Expense tracking · Smart balance summaries · Easy financial management</span>
+              </article>
+              <article class="reference-project">
+                <h3><i class="fa-solid fa-laptop-code" aria-hidden="true"></i> Portfolio Website</h3>
+                <p>A polished personal portfolio to showcase my skills, projects, certificates, and professional profile in a clean digital format.</p>
+                <span>Modern UI design · Responsive layout · Professional branding</span>
+              </article>
+              <article class="reference-project">
+                <h3><i class="fa-solid fa-robot" aria-hidden="true"></i> Cimage AI Agent</h3>
+                <p>An AI-driven workflow integrating Gemini, Google Sheets, and n8n for streamlined automation and data handling.</p>
+                <span>AI workflow integration · Automation · Data processing</span>
+              </article>
+              <article class="reference-project">
+                <h3><i class="fa-solid fa-chart-pie" aria-hidden="true"></i> Personal Expense Tracker</h3>
+                <p>A personal finance dashboard that helps monitor income, spending, and trends to support better financial decisions.</p>
+                <span>Budget insights · Trend analysis · Expense categorization</span>
+              </article>
+            </div>
+          </section>
+        </div>
+      </section>
 
-<section class="hero" >
+      <section class="reference-certificates" id="certificates">
+        <h2 class="reference-heading">Certificates</h2>
+        <div class="reference-certificate-list">
+          <div class="reference-certificate"><span><i class="fa-brands fa-microsoft" aria-hidden="true"></i> Microsoft Generative AI</span><a href="Certificates\GenAI_For_All_Certificate.pdf" target="_blank" rel="noopener noreferrer">View</a></div>
+          <div class="reference-certificate"><span><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Cyber Security Workshop</span><a href="Certificates\cyber-security.pdf" target="_blank" rel="noopener noreferrer">View</a></div>
+          <div class="reference-certificate"><span><i class="fa-solid fa-robot" aria-hidden="true"></i> Agentic AI Workshop</span><a href="Certificates\Agentic-AI.pdf" target="_blank" rel="noopener noreferrer">View</a></div>
+          <div class="reference-certificate"><span><i class="fa-solid fa-microchip" aria-hidden="true"></i> AI Tools &amp; ChatGPT</span><a href="Certificates\AI-Tools&amp;ChatGPT.pdf" target="_blank" rel="noopener noreferrer">View</a></div>
+        </div>
+      </section>
+    </main>
 
-<div class="profile-section">
-
-<div class="profile-pic">
-<img src="Certificates/PHOTO.jpeg" alt="Profile">
-</div>
-
-<div class="hero-content">
-
-<h1>Priyaranjan</h1>
-
-<div class="about-line">
-    <section class="about" id="about"></section>
-<h3>About Me</h3>
-<span></span>
-</div>
-
-<h2>B.Sc IT Student | Aspiring Data Analyst</h2>
-
-<p>
-Passionate about data-driven insights, business analytics,
-AI technologies and building practical solutions that solve
-real-world problems.
-</p>
-
-</div>
-</div>
-
-
-<div class="contact-box">
-
-<div>
-<a href="Certificates/Priyaranjan_Resume.pdf" download>
-<i class="fa-solid fa-file"></i>
-View / Download Resume
-</a>
-</div>
-
-<div>
-<a href="https://www.linkedin.com/in/priyaranjan-it" target="_blank">
-<i class="fa-brands fa-linkedin"></i>
-LinkedIn
-</a>
-</div>
-
-<div>
-<a href="https://github.com/priyaranjan67" target="_blank">
-<i class="fa-brands fa-github"></i>
-GitHub
-</a>
-</div>
-
-<div>
-<a href="mailto:ranjan4967@gmail.com">
-<i class="fa-solid fa-envelope"></i>
-Email ID
-</a>
-</div>
-
-<div>
-<a href="tel:+917361954967">
-<i class="fa-solid fa-phone"></i>
-Phone Number
-</a>
-
-</div>
-
-</section>
-
-<!-- SKILLS -->
-
-<section class="main" id="skills">
-
-<div class="skills">
-<div id="skills" class="skills"></div>
-
-<div class="skills-box" id="skills"></div>
-<h2 class="section-title">Skills</h2>
-<div class="yellow-line"></div>
-
-<ul>
-<li><i class="fa-brands fa-html5"></i> HTML</li>
-<li><i class="fa-brands fa-css3-alt"></i> CSS</li>
-<li><i class="fa-brands fa-js"></i> JavaScript</li>
-<li><i class="fa-brands fa-python"></i> Python</li>
-<li><i class="fa-solid fa-database"></i> SQL</li>
-<li><i class="fa-solid fa-file-excel"></i> Excel</li>
-<li><i class="fa-solid fa-chart-column"></i> Power BI</li>
-<li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
-<li><i class="fa-solid fa-server"></i> MongoDB</li>
-<li><i class="fa-brands fa-linux"></i> Linux</li>
-</ul>
-
-</div>
-
-<!-- PROJECTS -->
-
-<div class="project">
-<div id="projects" class="project-box"></div>
-<h2 class="section-title">Projects</h2>
-<div class="yellow-line"></div>
-
-<div class="project">
-<h3><i class="fa-solid fa-wallet expense-icon"></i> Roommate Expense Sharing App</h3>
-<p>Track shared expenses and balances.</p>
-</div>
-
-<div class="project">
-<h3><i class="fa-solid fa-robot ai-icon"></i> Personal Portfolio Website</h3>
-
-<p>Personal Information.</p>
-</div>
-
-<div class="project">
-<h3><i class="fa-solid fa-graduation-cap college-icon"></i> Cimage AI Agent</h3>
-<p>Gemini + Google Sheets + n8n integration.</p>
-</div>
-
-<div class="project">
-<h3><i class="fa-solid fa-chart-pie tracker-icon"></i> Personal Expense Tracker</h3>
-<p>Expense management and analysis.</p>
-</div>
-
-</div>
-
-<!-- EDUCATION -->
-
-<div>
-
-<h2 class="section-title">Education</h2>
-<div class="yellow-line"></div>
-
-<div class="education-item">
-<h3>Pursuing B.Sc IT</h3>
-<p>@CIMAGE College Patna (2025-2028)</p>
-</div>
-
-<div class="education-item">
-<h3>12th</h3>
-<p>B.N.M.V College, Madhepura</p>
-</div>
-
-<div class="education-item">
-<h3>10th</h3>
-<p>U.M.S Kishanpur, Saharsa</p>
-</div>
-
-</div>
-
-</section>
-
-<!-- Certificates -->
-
-<section class="certificates" id="certificates">
-<h2 class="section-title">Certificates</h2>
-<div class="yellow-line"></div>
-
-<div class="certificate-row">
-<span><i class="fa-brands fa-microsoft"></i> Microsoft Generative AI</span>
-<a href="Certificates/GenAI_For_All_Certificate.pdf" target="_blank">
-    <button class="view-btn">View</button>
-</a>
-</div>
-
-<div class="certificate-row">
-<span><i class="fa-solid fa-shield-halved"></i> Cyber Security Workshop</span>
-<a href="Certificates/cyber-security.pdf" target="_blank">
-    <button class="view-btn">View</button>
-</a>
-</div>
-
-<div class="certificate-row">
-<span><i class="fa-solid fa-robot"></i> Agentic AI Workshop</span>
-<a href="Certificates/Agentic-AI.pdf" target="_blank">
-    <button class="view-btn">View</button>
-</a>
-</div>
-
-<div class="certificate-row">
-<span><i class="fa-solid fa-microchip"></i> AI Tools & ChatGPT</span>
-<a href="Certificates/AI-Tools&ChatGPT.pdf" target="_blank">
-    <button class="view-btn">View</button>
-</a>
-</div>
-</section>
-<footer>
-    <p>© 2026 Priyaranjan. Designed & Developed by Priyaranjan.</p>
-</footer>
-<!-- <script src="priyaranjan.js"></script> -->
-</body>
+    <footer class="reference-footer">
+      © 2026 Priyaranjan. All rights reserved. · Designed &amp; Developed by Priyaranjan.
+    </footer>
+  </body>
 </html>
+

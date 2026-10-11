@@ -1012,6 +1012,7 @@ body {
   border-color: rgba(222, 232, 250, 0.1);
   background: #142138;
 }
+:root[data-theme="dark"] .reference-skills > div:nth-child(10) i {color: #202020;background: #ffffff;}
 
 :root[data-theme="dark"] .reference-project {
   border-left-color: #42c58a;
